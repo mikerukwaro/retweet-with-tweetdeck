@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Twitting Bot</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" integrity="sha384-kjE4BqvC4iOL7ddF1GlK94IbJl2j/IT0B0alE9A9Y23NkOiNEgNjNw5tB30+H5cA" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet" />
+
+  </head>
+  <body>
+
+    <div class="container my-5">
+      <h3 class="text-center mb-4">Twitting Bot</h3>
+      <form>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password:</label>
+          <input type="password" class="form-control" id="password" name="password">
+        </div>
+		<div class="mb-3">
+          <label for="password" class="form-label">Username:</label>
+          <input class="form-control" id="username" name="username">
+        </div>
+        <div class="mb-3">
+          <label for="posting_time" class="form-label">Posting Interval(minutes):</label>
+          <input class="form-control" id="posting_time" name="posting_time">
+        </div>
+        <div class="mb-3">
+          <textarea id="output" class="form-control mb-4" rows="4" style="padding-top: 29px"></textarea>
+        </div>
+        <div class="text-center" style="padding-bottom: 0px;">
+          <button type="button" class="btn-primary" id="login">Login</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-1cqz5m0Z5kCgsCuRd/lhXzD0MSnx6x/IySvXJ1g27jpiLzUqlNYM4Xd4oU6PD2Dt" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="/js.js"></script>
+  </body>
+</html>
